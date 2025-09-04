@@ -303,7 +303,7 @@ public sealed class SiliconLawSystem : SharedSiliconLawSystem
 
         while (query.MoveNext(out var update))
         {
-            SetLaws(lawset, update, provider.LawUploadSound);
+            SetLaws(lawset.Laws, update, provider.LawUploadSound);
             // Start Stellar - AILawUpdatedEvent
             var evt = new Content.Server._ST.Silicons.AILawUpdatedEvent(update, provider.Laws);
             RaiseLocalEvent(ref evt);

@@ -156,8 +156,8 @@ def get_discord_body(content: str):
     }
 
 
-def send_discord_webhook(lines: list[str], fork: str):
-    content = f"## {fork} Changes\n" + "".join(lines)
+def send_discord_webhook(lines: list[str]):
+    content = "".join(lines)
     body = get_discord_body(content)
     retry_attempt = 0
 
@@ -212,8 +212,8 @@ def changelog_entries_to_message_lines(entries: Iterable[ChangelogEntry]) -> lis
 
 def send_message_lines(message_lines: list[str], fork: str):
     """Join a list of message lines into chunks that are each below Discord's message length limit, and send them."""
-    chunk_lines = []
-    chunk_length = 0
+    chunk_lines = [fork]
+    chunk_length = len(fork)
 
     for line in message_lines:
         line_length = len(line)
@@ -221,7 +221,7 @@ def send_message_lines(message_lines: list[str], fork: str):
 
         if new_chunk_length > DISCORD_SPLIT_LIMIT:
             print("Split changelog and sending to discord")
-            send_discord_webhook(chunk_lines, fork)
+            send_discord_webhook(chunk_lines)
 
             new_chunk_length = line_length
             chunk_lines.clear()
@@ -231,7 +231,7 @@ def send_message_lines(message_lines: list[str], fork: str):
 
     if chunk_lines:
         print("Sending final changelog to discord")
-        send_discord_webhook(chunk_lines, fork)
+        send_discord_webhook(chunk_lines)
 
 
 if __name__ == "__main__":

@@ -212,8 +212,11 @@ def changelog_entries_to_message_lines(entries: Iterable[ChangelogEntry]) -> lis
 
 def send_message_lines(message_lines: list[str], fork: str):
     """Join a list of message lines into chunks that are each below Discord's message length limit, and send them."""
-    chunk_lines = [fork]
-    chunk_length = len(fork)
+    chunk_lines = [f"## {fork}"]
+    chunk_length = len(f"## {fork}")
+
+    if len(message_lines) <= 0:
+        return
 
     for line in message_lines:
         line_length = len(line)

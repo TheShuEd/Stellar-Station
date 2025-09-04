@@ -9,7 +9,6 @@
       flags:
       - Anchorable
     - type: Rotatable
-      rotateWhileAnchored: true
     - type: AtmosAlarmable
       syncWith:
         - FireAlarm

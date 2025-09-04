@@ -46,8 +46,6 @@
   - type: Damageable
     damageContainer: Inorganic
     damageModifierSet: Metallic
-  - type: Rotatable
-    rotateWhileAnchored: true
 
 - type: entity
   id: StellarAirlock

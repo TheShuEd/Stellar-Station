@@ -324,3 +324,19 @@
   id: 40
   time: '2025-10-07T03:40:33.0000000+00:00'
   url: https://github.com/Stellar-Station/Stellar-Station/pull/118
+- author: AftrLite
+  changes:
+  - message: More respritening; Gravgen!
+    type: Add
+  id: 41
+  time: '2025-10-28T09:35:29.0000000+00:00'
+  url: https://github.com/Stellar-Station/Stellar-Station/pull/121
+- author: AftrLite, sowelipililimute
+  changes:
+  - message: Sprinting has been added. Hold shift to sprint!
+    type: Add
+  - message: Health is now represented with a new health bar.
+    type: Tweak
+  id: 42
+  time: '2025-10-23T05:24:23.0000000+00:00'
+  url: https://github.com/Stellar-Station/Stellar-Station/pull/112

@@ -112,7 +112,7 @@
       sprite: _ST/CosmicCult/Icons/objectives.rsi
       state: effigy
   - type: CosmicEffigyCondition
-    blacklist:
+    effigyTargetBlacklist:
       tags:
       - GhostOnlyWarp
       - NinjaBombingTargetBlocker

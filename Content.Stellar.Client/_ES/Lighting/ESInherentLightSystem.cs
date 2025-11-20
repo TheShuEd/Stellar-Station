@@ -7,7 +7,7 @@ using Robust.Client.GameObjects;
 using Robust.Shared.Map;
 using Robust.Shared.Player;
 
-namespace Content.Client._ES.Lighting;
+namespace Content.Stellar.Client._ES.Lighting;
 
 /// <summary>
 ///     Handles enabling and disabling mob inherent pointlights when locally attaching to a new mob.

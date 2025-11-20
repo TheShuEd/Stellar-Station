@@ -4,7 +4,7 @@
 
 using Robust.Shared.Prototypes;
 
-namespace Content.Client._ES.Lighting;
+namespace Content.Stellar.Client._ES.Lighting;
 
 /// <summary>
 ///     This is used for showing a clientside pointlight for your own controlled mob, like in SS13.

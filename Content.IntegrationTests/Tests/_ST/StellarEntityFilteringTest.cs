@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2026 TheShuEd <uhhadd@gmail.com>
+//
+// SPDX-License-Identifier: MIT
+
 #nullable enable
 using System.Collections.Generic;
 using Robust.Shared.Prototypes;

@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2025 TheShuEd
+//
+// SPDX-License-Identifier: LicenseRef-CosmicCult
+
 using Content.Stellar.Shared.CCVars;
 using Robust.Client.Graphics;
 using Robust.Client.Player;

@@ -1,4 +1,4 @@
-// SPDX-FileCopyrightText: 2025 TheShuEd
+// SPDX-FileCopyrightText: 2026 TheShuEd
 //
 // SPDX-License-Identifier: LicenseRef-CosmicCult
 

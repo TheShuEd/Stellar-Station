@@ -1,6 +1,10 @@
 // SPDX-FileCopyrightText: 2026 TheShuEd
 //
-// SPDX-License-Identifier: LicenseRef-CosmicCult
+// SPDX-License-Identifier: LicenseRef-Wallening
+/*
+ * This file is ALL RIGHTS RESERVED, Copyright (c) 2025 CrystallEdge, with usage rights granted to Stellar Station by the Copyright Holder.
+ * https://github.com/crystallpunk-14/crystall-punk-14/blob/master/LICENSE_CE.TXT
+ */
 
 using Content.Stellar.Shared.CCVars;
 using Robust.Client.Graphics;

@@ -61,8 +61,8 @@
     mode: SnapgridCenter
     snap:
     - Window
-  components:
   categories: [ ForkFiltered ]
+  components:
   - type: Sprite
     drawdepth: Walls
   - type: InteractionOutline

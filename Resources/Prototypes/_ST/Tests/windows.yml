@@ -62,6 +62,7 @@
     snap:
     - Window
   components:
+  categories: [ ForkFiltered ]
   - type: Sprite
     drawdepth: Walls
   - type: InteractionOutline

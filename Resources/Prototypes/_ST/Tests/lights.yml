@@ -8,6 +8,7 @@
   description: A light fixture! Requires a light tube to function.
   id: StellarLightTube
   parent: Poweredlight
+  categories: [ ForkFiltered ]
   components:
   - type: Sprite
     sprite: _ST/Tileset/Lighting/light_tube.rsi
@@ -21,6 +22,7 @@
   description: A standing light fixture! Requires a light tube to function.
   suffix: ""
   parent: PoweredLightPostSmallEmpty
+  categories: [ ForkFiltered ]
   components:
   - type: Sprite
     offset: 0, 0.25

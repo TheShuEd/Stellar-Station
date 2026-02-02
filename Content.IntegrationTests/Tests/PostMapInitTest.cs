@@ -328,7 +328,7 @@ namespace Content.IntegrationTests.Tests
         private void StellarCheckOnlyForkFiltered(ResPath map, YamlNode node, IPrototypeManager protoManager)
         {
             //ignore all vanilla maps
-            if (!map.ToString().Contains("Stellar"))
+            if (!map.ToString().Contains("_ST"))
                 return;
 
             var yamlEntities = node["entities"];

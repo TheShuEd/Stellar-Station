@@ -56,7 +56,7 @@
 
 ### MASKS
 - type: entity
-  parent: ClothingMaskBase
+  parent: StellarClothingMaskBase
   id: StellarClothingMaskServicePerformerMime
   name: mime's mask
   description: LOREM IPSUM
@@ -74,7 +74,7 @@
 
 ### MASKS
 - type: entity
-  parent: ClothingMaskBase
+  parent: StellarClothingMaskBase
   id: StellarClothingMaskServicePerformerClown
   name: clown's mask
   description: LOREM IPSUM

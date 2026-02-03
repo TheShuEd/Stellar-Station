@@ -74,6 +74,7 @@
   id: StellarLightTubeExterior
   suffix: Exterior
   parent: Poweredlight
+  categories: [ ForkFiltered ]
   components:
   - type: Sprite
     sprite: _ST/Tileset/Lighting/light_tube.rsi
@@ -98,6 +99,7 @@
   id: StellarLightTubeSodium
   suffix: Sodium
   parent: Poweredlight
+  categories: [ ForkFiltered ]
   components:
   - type: Sprite
     sprite: _ST/Tileset/Lighting/light_tube.rsi
@@ -122,6 +124,7 @@
   id: StellarLightTubeCyan
   suffix: Cyan
   parent: Poweredlight
+  categories: [ ForkFiltered ]
   components:
   - type: Sprite
     sprite: _ST/Tileset/Lighting/light_tube.rsi
@@ -146,6 +149,7 @@
   id: StellarLightTubeRed
   suffix: Red
   parent: Poweredlight
+  categories: [ ForkFiltered ]
   components:
   - type: Sprite
     sprite: _ST/Tileset/Lighting/light_tube.rsi
@@ -270,6 +274,7 @@
   suffix: "grey floor"
   placement:
     mode: SnapgridCenter
+  categories: [ ForkFiltered ]
   components:
   - type: Sprite
     sprite: _ST/Tileset/Lighting/emergency_light.rsi
@@ -342,6 +347,7 @@
   suffix: Always Powered
   placement:
     mode: SnapgridCenter
+  categories: [ ForkFiltered ]
   components:
   - type: InteractionOutline
   - type: Clickable
@@ -369,6 +375,7 @@
   id: StellarLightCornerAlwaysPowered
   name: corner light fixture
   suffix: Always Powered
+  categories: [ ForkFiltered ]
   placement:
     mode: SnapgridCenter
   components:
@@ -392,6 +399,7 @@
   id: StellarLightTubeAlwaysPowered
   name: light fixture
   suffix: Always Powered
+  categories: [ ForkFiltered ]
   placement:
     mode: SnapgridCenter
   components:

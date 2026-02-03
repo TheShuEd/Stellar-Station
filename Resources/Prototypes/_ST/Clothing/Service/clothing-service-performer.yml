@@ -160,7 +160,7 @@
 
 ### SHOES
 - type: entity
-  parent: ClothingShoesBaseButcherable
+  parent: StellarClothingShoesBaseButcherable
   id: StellarClothingShoesServicePerformerClown
   name: clown's shoes
   description: LOREM IPSUM
